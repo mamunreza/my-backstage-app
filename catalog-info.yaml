@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: MyBackStage
+  title: MyBackStage
+  description: This is the very first catalog page
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: https://github.com/adr/madr/tree/develop/docs/decisions
+    #backstage.io/adr-location: ./docs/adrs
+  links:
+    - title: 'Wikipedia'
+      url: https://en.wikipedia.org/wiki/Main_Page
+    - title: 'W3Schools'
+      url: https://www.w3schools.com/
+    - title: 'Themes of .NET'
+      url: https://themesof.net/
+spec:
+  domain: MyBackStage
+  owner: mbs
+---
